@@ -1,7 +1,7 @@
 const modal = document.getElementById("image-modal");
 const previewImage = document.getElementById("image-preview");
 
-document.querySelectorAll(".hover-text").forEach(el => {
+document.querySelectorAll(".hover-text").forEach((el) => {
   el.addEventListener("click", (e) => {
     e.stopPropagation();
     const imgSrc = e.target.getAttribute("data-image");
